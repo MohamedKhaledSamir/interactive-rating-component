@@ -1,0 +1,39 @@
+@use "../../sass/helpers.scss" as *;
+
+.thanks {
+  text-align: center;
+
+  img {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+
+  .brevity {
+    background-color: #202d36;
+    width: fit-content;
+    color: rgba(lighten(hsl(25, 97%, 53%), 10%), 0.8);
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 8px 17px;
+    border-radius: 20px;
+    font-size: 13px;
+    letter-spacing: 1px;
+  }
+
+  .thanks-heading {
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-size: 26px;
+  }
+
+  .desc {
+    color: #9da4ae;
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 1.7;
+
+    @include smallScreens {
+      font-size: 12px;
+    }
+  }
+}

@@ -1,0 +1,44 @@
+@use "../../sass/helpers.scss" as *;
+.rate {
+  .star {
+    width: 45px;
+    height: 45px;
+    margin-bottom: 30px;
+    background-color: #272e38;
+
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+
+    img {
+      width: 15px;
+      height: 15px;
+    }
+  }
+
+  .question {
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+
+  .desc {
+    color: hsl(216, 12%, 62%);
+    font-size: 14px;
+    max-width: 350px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    @include smallScreens {
+      font-size: 12px;
+      padding-right: 5px;
+    }
+  }
+
+  .numbers {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+}
