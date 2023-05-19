@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:
+- Solution URL: https://www.frontendmentor.io/solutions/interactive-rating-component-626WQAt3Ct
 - Live Site URL: https://mks-interactive-rating-component.netlify.app/
 
 ## My process
